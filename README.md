@@ -38,7 +38,7 @@ Steps:
 5. Chosse the path of your project. Please notice that this path should contain a valid xcodeproj or xcworkspace file.
 6. Click [Project Path] and add directories that contain all code of your project if your project uses code placed somewhere else.
 7. Emben ZhuQue.framework and libLLVM.dylib in your project. You can find these frameworks under /Applications/Zhuque.app/Contents/Resources after installing.
-8. Call [[ZhuQue sharedInstance] showStartPopup] in didFinishLaunchingWithOptions.
+8. Call [[ZhuQue sharedInstance] showStartPopup] in didFinishLaunchingWithOptions after creating a rootViewController.
 9. Build your project and run the relative app on your device.
 10. Click [ZQ] and select [Broadcast].
 11. Click the [Connnect] button in your app.
